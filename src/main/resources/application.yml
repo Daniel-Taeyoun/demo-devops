@@ -1,0 +1,4 @@
+#서버 환경별 설정 분리
+spring:
+  profiles:
+    active: local
