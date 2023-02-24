@@ -27,8 +27,8 @@ public class TestController {
 
   @GetMapping("/k8sTest")
   public String k8sTest() {
-    log.info("*** docker-image-v2.0");
-    return "docker-image-v2.0";
+    log.info("*** docker-image-v1.0");
+    return "docker-image-v1.0";
   }
 
   @GetMapping("/redis")

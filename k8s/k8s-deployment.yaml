@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: container-demo-devops-v1
-          image: demo-devops:v1.6
+          image: demo-devops:v1.0
           ports:
             - containerPort: 8080
 ---
@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
         - name: container-demo-devops-v2
-          image: demo-devops:v2.1
+          image: demo-devops:v2.0
           ports:
             - containerPort: 8080
 ---
